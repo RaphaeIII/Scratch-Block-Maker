@@ -1,0 +1,38 @@
+{
+  "name": "s3ext-scaffold",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://kittenbot.github.io/scratch3-extension",
+  "dependencies": {
+    "antd": "^3.13.6",
+    "lodash.bindall": "^4.4.0",
+    "react": "^16.8.3",
+    "react-color": "^2.17.0",
+    "react-dom": "^16.8.3",
+    "react-localization": "^1.0.13",
+    "react-monaco-editor": "^0.25.1",
+    "react-scripts": "2.1.5",
+    "scratch-blocks": "0.1.0-prerelease.1549990124"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "gh-pages": "^2.0.1",
+    "monaco-editor-webpack-plugin": "^1.7.0",
+    "react-app-rewired": "^2.1.1"
+  }
+}
